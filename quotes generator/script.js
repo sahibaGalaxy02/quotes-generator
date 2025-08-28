@@ -16,10 +16,12 @@ const btn = document.getElementById("generateBtn");
 
 btn.addEventListener("click", () => {
     const randomIndex = Math.floor(Math.random() * quotes.length);
-    quoteElement.style.opacity = 0; // Fade out
+    quoteElement.style.opacity = 0; // fade out 
+    
     setTimeout(() => {
         quoteElement.textContent = quotes[randomIndex];
         quoteElement.style.opacity = 1; // fade in
     }, 300);
 });
+
 
