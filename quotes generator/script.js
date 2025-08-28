@@ -19,6 +19,7 @@ btn.addEventListener("click", () => {
     quoteElement.style.opacity = 0; // Fade out
     setTimeout(() => {
         quoteElement.textContent = quotes[randomIndex];
-        quoteElement.style.opacity = 1; // Fade in
+        quoteElement.style.opacity = 1; // fade in
     }, 300);
 });
+
