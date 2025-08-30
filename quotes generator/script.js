@@ -1,4 +1,4 @@
-const quotes = [
+noconst quotes = [
     "Dream big. Start small. Act now.",
     "You are stronger than you think.",
     "Do something today that your future self will thank you for.",
@@ -20,8 +20,9 @@ btn.addEventListener("click", () => {
     
     setTimeout(() => {
         quoteElement.textContent = quotes[randomIndex];
-        quoteElement.style.opacity = 1; // fade in
+        quoteElement.style.opacity = 1;
     }, 300);
 });
+
 
 
