@@ -1,4 +1,4 @@
-noconst quotes = [
+const quotes = [
     "Dream big. Start small. Act now.",
     "You are stronger than you think.",
     "Do something today that your future self will thank you for.",
@@ -10,7 +10,6 @@ noconst quotes = [
     "Your vibe attracts your tribe.",
     "Don’t watch the clock; do what it does. Keep going."
 ];
-
 const quoteElement = document.getElementById("quote");
 const btn = document.getElementById("generateBtn");
 
@@ -23,6 +22,7 @@ btn.addEventListener("click", () => {
         quoteElement.style.opacity = 1;
     }, 300);
 });
+
 
 
 
