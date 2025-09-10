@@ -9,6 +9,7 @@ const quotes = [
     "Little things make big days.",
     "Your vibe attracts your tribe.",
     "Don’t watch the clock; do what it does. Keep going."
+    "Don't praise yourself, let the world do this for you"
 ];
 const quoteElement = document.getElementById("quote");
 const btn = document.getElementById("generateBtn");
@@ -22,6 +23,7 @@ btn.addEventListener("click", () => {
         quoteElement.style.opacity = 1;
     }, 300);
 });
+
 
 
 
