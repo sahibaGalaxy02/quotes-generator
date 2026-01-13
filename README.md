@@ -10,7 +10,7 @@ This project is built to practice **HTML, CSS, and JavaScript** concepts.
 - Generate random quotes  
 - Clean and minimal user interface  
 - One-click quote generation  
-- Beginner-friendly project  
+- Beginner-friendly Project..
 
 ---
 
